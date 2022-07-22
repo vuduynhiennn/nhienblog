@@ -1,0 +1,46 @@
+.RightHeader {
+    margin-bottom: 2.5rem;
+    .menu {
+        display: flex;
+        align-items: center;
+        .menuItem {
+            margin-left: 1rem;
+            .para {
+                user-select: none;
+                cursor: pointer;
+                font-size: 1rem;
+                font-weight: 500;
+                padding: 0.4rem 1.22rem;
+                border-radius: .4rem;
+                transition: 0.34s all;
+                &:hover {
+                    background-color: #272f3a;
+                }
+                .faBook, .faList, .faWineGlass, .faShieldCat {
+                    font-size: 1rem;
+                    opacity: 0.8;
+                    margin-right: 0.6rem;
+                }
+            }
+
+            .projectNumber::after {
+                content: '3';
+                background-color: #343942;
+                margin-left: 0.5rem;
+                padding: 0.1rem 0.7rem;
+                font-size: 0.85rem;
+                border-radius: 30%;
+                position: relative;
+            }
+            .active::after {
+                    content: '';
+                    margin: 0 auto;
+                    background-color: red;
+                    border-bottom: 3px solid #f78166;
+                    display: block;
+                    position: relative;
+                    top: 1rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@import '../GlobalStyle/GlobalStyle.scss';
+
+.main {
+    box-sizing: border-box;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2.6rem 0;
+}
