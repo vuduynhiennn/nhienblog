@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import clsx from 'clsx'
 import styles from './RightHeader.module.scss'
 
@@ -9,20 +10,29 @@ let RightHeader = () => {
         <div className={ styles.RightHeader }>
             <ul className= { styles.menu }>
                 <li className={ styles.menuItem }>
-                    <p className={ clsx(styles.para, styles.active) }>
+                    <Link className={ clsx('link') } to="/overview"> 
+                        <p className={ clsx(styles.para)}>
+
                         <FontAwesomeIcon className= { styles.faBook } icon={ faBook } />
-                        Overview</p>
+                        Overview 
+                        </p>
+                    </Link>
                 </li>
                 <li className={ styles.menuItem }>
-                    <p className={ clsx(styles.para, styles.projectNumber) }>
+                    <Link className={ clsx('link') } to="/project">
+                        <p className={ clsx(styles.para, styles.projectNumber) }>
                         <FontAwesomeIcon className= { styles.faList } icon={ faList } />
                         Project
-                    </p>
+                        </p>
+                    </Link>
                 </li>
                 <li className={ styles.menuItem }>
-                    <p className={ clsx(styles.para) }>
-                    <FontAwesomeIcon className= { styles.faWineGlass } icon={ faWineGlass } />
-                    Certificate</p>
+                    <Link className={ clsx('link') } to="/certificate">
+                        <p className={ clsx(styles.para) }>
+                        <FontAwesomeIcon className= { styles.faWineGlass } icon={ faWineGlass } />
+                        Certificate
+                        </p>
+                    </Link>
                 </li>
                 <li className={ styles.menuItem }>
                     <p className={ clsx(styles.para) }>
