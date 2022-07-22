@@ -1,12 +1,8 @@
 .RightProject {
-    padding: 1rem;
+    padding: 1.2rem;
     border: 3px solid #21262d;
     border-radius: 0.5rem;
     box-sizing: border-box;
-
-    .line {
-
-    }
 
     
     .projectCtn {
@@ -37,6 +33,8 @@
             justify-content: center;
             .descripttion {
                 margin: 0.3rem 0;
+                font-size: 0.9rem;
+                color: #838486;
             }
             .projectItemFirstPL {
                 font-size: 0.8rem;
@@ -61,7 +59,7 @@
             .projectName {
                 color: #58a6ff;
                 font-weight: 500;
-                font-size: 1.3rem;
+                font-size: 1.23rem;
                 display: flex;
                 align-items: center;
                 &::after {

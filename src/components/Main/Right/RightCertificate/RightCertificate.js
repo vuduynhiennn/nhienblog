@@ -1,10 +1,11 @@
-import './RightCertificate'
+import clsx  from 'clsx'
+import styles from './RightCertificate.module.scss'
 
 let RightCertificate = () => {
     return (
-        <>
-            <h1> bên Certificate </h1>
-        </>
+        <div className={ clsx(styles.RightCertificate) }>
+            
+        </div>
     )
 }
 
