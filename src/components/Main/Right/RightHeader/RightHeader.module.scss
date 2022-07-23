@@ -32,15 +32,6 @@
                 border-radius: 30%;
                 position: relative;
             }
-            .active::after {
-                    content: '';
-                    margin: 0 auto;
-                    background-color: red;
-                    border-bottom: 3px solid #f78166;
-                    display: block;
-                    position: relative;
-                    top: 1rem;
-            }
         }
     }
 }

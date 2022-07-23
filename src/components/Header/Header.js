@@ -1,20 +1,17 @@
-import clsx from "clsx"
-import styles from "./Heading.module.scss"
+import styles from "./Header.module.scss"
 import "../GlobalStyle/GlobalStyle.scss"
 
-let Heading = () => {
+let Header = () => {
     return (
-        <>
             <div className={ styles.heading }>
                 <div className={ styles.heading.first}> 
                     <a href="/">
-                        <img className= { styles.logo } src="./img/logo.png"/>
+                        <img className= { styles.logo } src="./img/logo.png" alt="logo"/>
                     </a>
                 </div>
             </div>
-        </>
     )
 }
 
 
-export default Heading
+export default Header

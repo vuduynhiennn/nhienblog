@@ -1,6 +1,44 @@
 .RightCertificate {
     padding: 1.2rem;
     border: 3px solid #21262d;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem;  
     box-sizing: border-box;
+    .myCer {
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+    .img {
+        width: 270px;
+    }
+    .gallery {
+        margin: 0 auto;
+        padding: 15px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        & > div {
+            position: relative;
+            float: left;
+            padding: 5px;
+            & > img {
+                transition: .1s transform;
+                transform: translateZ(0); /* hack */
+            }
+            &:hover {
+                z-index: 1;
+                & > img {
+                    transform: scale(2,2);
+                    transition: .3s transform;
+                }
+            }
+        }
+    }
+    .cf {
+        &::before, &::after {
+            display: table;
+            content: "";
+            line-height: 0;
+        }
+        &::after {
+            clear: both;
+        }
+    }
 }

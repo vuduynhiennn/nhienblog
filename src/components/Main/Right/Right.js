@@ -1,4 +1,5 @@
-import { Routes, Route, Link } from "react-router-dom" 
+import { Routes, Route} from "react-router-dom" 
+import Blog from "../../Blog/Blog"
 import styles from './Right.module.scss'
 import RightCertificate from "./RightCertificate/RightCertificate"
 import RightHeader from './RightHeader/RightHeader'
@@ -11,10 +12,10 @@ let Right = () => {
             <RightHeader /> 
             <Routes>
                 <Route index element={<RightOverview />} />
-                {/* <RightOverview /> */}
                 <Route path="overview" element={ <RightOverview /> }/>
                 <Route path="project" element={ <RightProject /> }/>
                 <Route path="certificate" element={ <RightCertificate /> }/>
+                <Route path="blog" element={ <Blog /> }/>
             </Routes> 
         </div>
     )
