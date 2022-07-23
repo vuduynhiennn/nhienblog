@@ -9,10 +9,18 @@ let Left = () => {
             <img className={ styles.logo } src='./img/logo.png' alt='logo'/>
             <h1 className={ styles.name }> Vũ Duy Nhiên</h1>
             <div className={ styles.social }> 
-                 <FontAwesomeIcon className= { styles.faInstagram } icon={ faInstagram } />        
-                 <FontAwesomeIcon className= { styles.faFacebook } icon={ faFacebook } />
-                 <FontAwesomeIcon className= { styles.faYoutube } icon={ faYoutube } />        
-                 <FontAwesomeIcon className= { styles.faTwitter } icon={ faTwitter } />        
+                <a className={clsx('link')} href='https://www.instagram.com/vuuduynhiennnnnnnnnnnnnnnn/' >
+                    <FontAwesomeIcon className= { styles.faInstagram } icon={ faInstagram } />        
+                </a>
+                <a className={clsx('link')} href='https://www.facebook.com/vuduynhiennn/'>
+                    <FontAwesomeIcon className= { styles.faFacebook } icon={ faFacebook } />
+                </a>
+                <a className={clsx('link')} href='https://www.youtube.com/channel/UCPt213lv9vyLx0YydEkOPjg'>
+                    <FontAwesomeIcon className= { styles.faYoutube } icon={ faYoutube } />        
+                </a>
+                <a className={clsx('link')} href='https://twitter.com/vuduynhien'>
+                    <FontAwesomeIcon className= { styles.faTwitter } icon={ faTwitter } />        
+                </a>
             </div>
             <div className={ styles.line }></div>
             <h1 className={ clsx(styles.name, styles.headings2) }>Đôi chút về Nhiên</h1>

@@ -46,7 +46,7 @@
                     width: 15px;
                     border-radius: 50%;
                     height: 15px;
-                    background-color: yellow;
+                    background-color: #7BE0FD;
                     margin-right: 5px;
                 }
                 &::after {
@@ -61,6 +61,7 @@
                 font-size: 1.23rem;
                 display: flex;
                 align-items: center;
+                cursor: pointer;
                 &::after {
                     content: 'public';
                     font-size: 0.8rem;

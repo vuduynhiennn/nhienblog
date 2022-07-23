@@ -11,87 +11,35 @@ let RightProject = () => {
             }>
                 <div className={
                     clsx(styles.projectItemFirst)
-                }>
-                    <p className={
-                        clsx(styles.projectName)
-                    }>Hệ thống gọi ngủ dậy đúng giờ</p>
+                }>  
+                    <a className='link' href="/">
+                        <p className={
+                            clsx(styles.projectName)
+                        }>Là cái trang web này á</p>                    
+                    </a>
+                    
                     <p className={
                         styles.descripttion
-                    }>Nó là cái báo thức ấy chứ kông có gì cao siêu cả tôi viết linh tinh cho có chữu thôi
+                    }>trang này e sử dụng react js ạ, bên back dùng express js, db dùng mongodb
                     </p>
                     <div className={
                         clsx(styles.projectItemFirstPL)
                     }>
-                        JavaScript
+                        React js
                     </div>
                 </div>
-                <div className={
-                    styles.projectItemLast
-                }>
-                    view
-                </div>
+                <a className='link' href='/'>
+                    <div className={
+                        styles.projectItemLast
+                    }>
+                        view
+                    </div>
+                </a>
             </div>
 
-            <div className={
+            {/* <div className={
                 clsx('line')
-            }></div>
-
-            <div className={
-                styles.projectCtn
-            }>
-                <div className={
-                    clsx(styles.projectItemFirst)
-                }>
-                    <p className={
-                        clsx(styles.projectName)
-                    }>Hệ thống gọi ngủ dậy đúng giờ</p>
-                    <p className={
-                        styles.descripttion
-                    }>Nó là cái báo thức ấy chứ kông có gì cao siêu cả tôi viết linh tinh cho có chữu thôi
-                    </p>
-                    <div className={
-                        clsx(styles.projectItemFirstPL)
-                    }>
-                        JavaScript
-                    </div>
-                </div>
-                <div className={
-                    styles.projectItemLast
-                }>
-                    view
-                </div>
-            </div>
-
-            <div className={
-                clsx('line')
-            }></div>
-
-            <div className={
-                styles.projectCtn
-            }>
-                <div className={
-                    clsx(styles.projectItemFirst)
-                }>
-                    <p className={
-                        clsx(styles.projectName)
-                    }>Hệ thống gọi ngủ dậy đúng giờ</p>
-                    <p className={
-                        styles.descripttion
-                    }>Nó là cái báo thức ấy chứ kông có gì cao siêu cả tôi viết linh tinh cho có chữu thôi
-                    </p>
-                    <div className={
-                        clsx(styles.projectItemFirstPL)
-                    }>
-                        JavaScript
-                    </div>
-                </div>
-                <div className={
-                    styles.projectItemLast
-                }>
-                    view
-                </div>
-            </div>
-
+            }></div> */}
 
         </div>
     )

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import clsx from 'clsx'
 import styles from './RightHeader.module.scss'
 import { useLocation } from "react-router-dom"
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBook, faList, faWineGlass, faShieldCat } from '@fortawesome/free-solid-svg-icons'
 
@@ -15,8 +14,7 @@ let RightHeader = () => {
                 <li className={ clsx(styles.menuItem, {'active': (sampleLocation.pathname === '/overview' || sampleLocation.pathname === '/')})}>
                     <Link className={ clsx('link') } to="/overview"> 
                         <p className={ clsx(styles.para, 'RightHeaderItem')}>
-
-                        <FontAwesomeIcon className= { styles.faBook } icon={ faBook } />
+                        <FontAwesomeIcon className= { styles.faShieldCat } icon={ faShieldCat } />
                         Overview 
                         </p>
                     </Link>
@@ -40,7 +38,7 @@ let RightHeader = () => {
                 <li className={ clsx(styles.menuItem, {'active': (sampleLocation.pathname === '/blog')}) }>
                     <Link className={ clsx('link') } to="/blog">
                     <p className={ clsx(styles.para, 'RightHeaderItem') }>
-                    <FontAwesomeIcon className= { styles.faShieldCat } icon={ faShieldCat } />
+                    <FontAwesomeIcon className= { styles.faBook } icon={ faBook } />
                     Blog</p>
                     </Link>
                 </li>
