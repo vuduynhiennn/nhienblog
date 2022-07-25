@@ -16,7 +16,7 @@
                 &:hover {
                     background-color: #272f3a;
                 }
-                .faBook, .faList, .faWineGlass, .faShieldCat {
+                .faBook, .faLineChart, .faRectangleList, .faShieldCat {
                     font-size: 1rem;
                     opacity: 0.8;
                     margin-right: 0.6rem;
@@ -33,5 +33,32 @@
                 position: relative;
             }
         }
+    }
+}
+
+@media screen and(max-width: 470px) {
+    .faBook, .faLineChart, .faRectangleList, .faShieldCat {
+        font-size: 0.8rem !important;
+        margin-right: 0.4rem !important;
+    }
+    .para {
+        font-size: 0.8rem !important;
+    }
+}
+
+
+@media screen and (max-width: 704px) {
+    .right {
+        width: 100%;
+    }
+    .menu {
+        text-align: center;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .faBook, .faLineChart, .faRectangleList, .faShieldCat {
+        display: none;
     }
 }

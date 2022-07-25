@@ -13,7 +13,6 @@ $font-color_light: black;
 $bg-color_light: #ffffff;
 $bt-color_dark: #21262d;
 
-
 //   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 6px;
@@ -102,3 +101,11 @@ td {
     position: relative;
     top: 1rem;
 }
+
+
+@media screen and (max-width: 1089px) {
+    html {
+        font-size: 13px;
+    }
+}
+

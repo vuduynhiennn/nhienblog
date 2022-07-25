@@ -4,3 +4,9 @@
     width: 70%;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 704px) {
+    .right {
+        width: 100%;
+    }
+}

@@ -47,3 +47,17 @@
         }
     }
 }
+
+
+@media screen and (max-width: 704px) {
+    .logo {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+    }
+    .header {
+        height: 40px;
+    }
+    .search {
+        width: 50vw !important;
+    }
+}

@@ -1,5 +1,3 @@
-@import '../GlobalStyle/GlobalStyle.scss';
-
 .main {
     box-sizing: border-box;
     display: flex;
@@ -7,4 +5,34 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 2.6rem 0;
+}
+
+@media screen and (max-width: 1347px) {
+    .main {
+        width: 1000px;
+    }
+}
+
+
+
+@media screen and (max-width: 1009px) {
+    .main {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 996px) {
+    html {
+        font-size: 12px;
+    }
+    .main {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 704px) {
+    .main {
+       flex-direction: column;
+    }
 }

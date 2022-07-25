@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import styles from './RightHeader.module.scss'
 import { useLocation } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBook, faList, faWineGlass, faShieldCat } from '@fortawesome/free-solid-svg-icons'
+import { faBook, faShieldCat, faLineChart, faRectangleList } from '@fortawesome/free-solid-svg-icons'
 
 
 let RightHeader = () => {
@@ -22,7 +22,7 @@ let RightHeader = () => {
                 <li className={ clsx(styles.menuItem, {'active': (sampleLocation.pathname === '/project')}) }>
                     <Link className={ clsx('link') } to="/project">
                         <p className={ clsx(styles.para, styles.projectNumber, 'RightHeaderItem') }>
-                        <FontAwesomeIcon className= { styles.faList } icon={ faList } />
+                        <FontAwesomeIcon className= { styles.faLineChart } icon={ faLineChart } />
                         Project
                         </p>
                     </Link>
@@ -30,7 +30,7 @@ let RightHeader = () => {
                 <li className={ clsx(styles.menuItem, {'active': (sampleLocation.pathname === '/certificate')}) }>
                     <Link className={ clsx('link') } to="/certificate">
                         <p className={ clsx(styles.para, 'RightHeaderItem') }>
-                        <FontAwesomeIcon className= { styles.faWineGlass } icon={ faWineGlass } />
+                        <FontAwesomeIcon className= { styles.faRectangleList } icon={ faRectangleList } />
                         Certificate
                         </p>
                     </Link>

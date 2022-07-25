@@ -50,3 +50,27 @@
         text-indent: 1.5rem;
     }
 }
+
+@media screen and (max-width: 704px) {
+    .left {
+       width: 100%;
+    }
+    .logo {
+        width: 25% !important;
+        display: none;
+    }
+    .intro, .headings2 {
+        display: none;
+    }
+    .social {
+        width: 34% !important;
+        margin: 1rem;
+        padding: 0.4rem !important;
+    }
+    .name {
+        margin-top: -1.5rem !important;
+    }
+    .faFacebook, .faInstagram, .faYoutube, .faTwitter {
+        font-size: 1rem !important;
+    }
+}

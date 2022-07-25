@@ -42,3 +42,30 @@
         }
     }
 }
+
+@media screen and (max-width: 945px) {
+    .img {
+        width: 100% !important;
+    }
+    .gallery {
+        margin: 0 auto;
+        padding: 10px !important;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        & > div {
+            position: relative;
+            float: left;
+            padding: 5px;
+            & > img {
+                transition: .1s transform;
+                transform: translateZ(0); /* hack */
+            }
+            &:hover {
+                z-index: 1;
+                & > img {
+                    transform: scale(1,1) !important;
+                    transition: .3s transform;
+                }
+            }
+        }
+    }
+}
