@@ -64,13 +64,17 @@
     }
     .social {
         width: 34% !important;
-        margin: 1rem;
-        padding: 0.4rem !important;
+        margin: 1rem 0 1rem 0;
+        padding: 0.5rem !important;
     }
     .name {
-        margin-top: -1.5rem !important;
+        margin-top: 0.5rem !important;
+        font-size: 2rem !important;
     }
     .faFacebook, .faInstagram, .faYoutube, .faTwitter {
         font-size: 1rem !important;
+    }
+    .line {
+        display: none;
     }
 }
