@@ -2,7 +2,7 @@ import styles  from './Blog.module.scss'
 let Blog = () => {
     return (
         <div className={ styles.Blog }>
-            a blog
+            đang cập nhật website blog ạ
         </div>
     )
 }
