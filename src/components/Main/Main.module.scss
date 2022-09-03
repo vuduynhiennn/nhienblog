@@ -1,0 +1,145 @@
+.postCtn {
+    padding:0px 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    width: 100%;
+
+}
+
+
+.postImgCtn {
+    margin: 13px;
+    background-color: red;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 230px;
+    background-image: url('https://i.pinimg.com/736x/f8/10/e3/f810e3b06e0663ec4085073e99b3f028.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.postItem {
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.postImg {
+    width: 100px;
+}
+.postTitle {
+    padding: 0 20px;
+    text-align: start;
+    letter-spacing: -1px;
+    font-weight: 600;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+
+@media screen and(max-width: 1430px) {
+    .postItem {
+        width: 300px;
+    }
+}
+
+@media screen and(max-width: 1138px) {
+    .postItem {
+        width: 250px;
+    }
+}
+
+
+@media screen and(max-width: 969px) {
+    .postCtn {
+        grid-template-columns: 1fr 1fr;
+    }
+    .postItem {
+        width: 350px;
+    }
+}
+
+
+@media screen and(max-width: 912px) {
+    .postCtn {
+        grid-template-columns: 1fr 1fr;
+    }
+    .postItem {
+        width: 320px;
+    }
+}
+
+
+@media screen and(max-width: 879px) {
+    .postCtn {
+        grid-template-columns: 1fr 1fr;
+    }
+    .postItem {
+        width: 300px;
+    }
+}
+
+
+@media screen and(max-width: 831px) {
+    .postCtn {
+        grid-template-columns: 1fr 1fr;
+    }
+    .postItem {
+        width: 280px;
+    }
+    .postImgCtn {
+        height: 200px;
+    }
+}
+
+
+@media screen and(max-width: 772px) {
+    .postCtn {
+        grid-template-columns: 1fr 1fr;
+    }
+    .postItem {
+        width: 250px;
+    }
+    .postImgCtn {
+        height: 190px;
+    }
+}
+
+@media screen and(max-width: 722px) {
+    .postCtn {
+        grid-template-columns: 1fr;
+    }
+    .postItem {
+        width: 100%;
+    }
+    .postImgCtn {
+        height: 300px;
+    }
+}
+
+@media screen and(max-width: 574px) {
+    .postCtn {
+        padding: 0 20px;
+    }
+    .postItem {
+        width: 100%;
+    }
+    .postImgCtn {
+        height: 250px;
+    }
+}
+
+@media screen and(max-width: 370px) {
+    .postCtn {
+        padding: 0 20px;
+    }
+    .postItem {
+        width: 100%;
+    }
+    .postImgCtn {
+        height: 200px;
+    }
+}
