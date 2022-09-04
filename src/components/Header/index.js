@@ -4,7 +4,8 @@ const Header = () => {
     return (
         <>
             <div className={styles.header}>
-                <h1> comming soon...</h1>
+                <h1> header... </h1>
+                <h1> comming soon... </h1>
             </div>
         </>
     )
